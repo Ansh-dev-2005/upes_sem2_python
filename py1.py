@@ -5,5 +5,5 @@ b=a//3600
 c=a%3600
 d=c//60
 e=c%60
- print(b,"hours",d,"minutes",e,"seconds")
+print(b,"hours",d,"minutes",e,"seconds")
  
