@@ -29,6 +29,12 @@ def main():
         
         if guess == code:
             print("You won!")
+            # print scores if he guess in first attemp give score 100 and deduct 10 for each attemp
+            if i==0:
+                print("Your score is 100")
+            else:
+                print("Your score is",100-(i*10))
+                
             break
         else:
             print(check_code(code, guess))
